@@ -47,3 +47,5 @@
 # You would do the above if you are happy with the default mirrors, but need to
 # install some additional packages from the same mirror, for example your preferred
 # text editor, troubleshooting utilities, etc.
+
+k8s_version: 1.19.1-00
