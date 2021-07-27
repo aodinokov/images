@@ -1,3 +1,9 @@
+apiVersion: airshipit.org/v1alpha1
+kind: ImageBuilderMultistrap
+metadata:
+  labels:
+    airshipit.org/deploy-k8s: "false"
+  name: multistrap-config
 # Overrides to the multistrap playbook defaults may be defined in this file.
 #
 # The following are examples that show you how to override variables.
@@ -47,3 +53,6 @@
 # You would do the above if you are happy with the default mirrors, but need to
 # install some additional packages from the same mirror, for example your preferred
 # text editor, troubleshooting utilities, etc.
+
+# changing k8s version
+k8s_version: 1.19.1-00
